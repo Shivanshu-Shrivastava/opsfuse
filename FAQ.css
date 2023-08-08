@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&family=Tenor+Sans&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Tenor Sans', sans-serif;
+    color: #75503f;
+    
+
+
+}
+/* FAQ  */
+.containerr {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1170px;
+}
+.collapse-title{
+	background-color: #f0dedb;
+}
+.collapse-content{
+	padding-left: unset!important;
+	padding-right: unset!important;
+}
+.faq__section{
+    background-color: #f8f1f1;
+    padding: 15px;
+	min-height: 100vh;
+}
+h3 {
+    text-align: center;
+    font-weight: 300;
+    font-size: 35px!important;
+    letter-spacing: 2px;
+    margin: 0.7rem 0 0 0;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.faq__section .container h3{
+    padding: 12px;
+}
+.d-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.dropdown__{
+    width: 100%;
+    padding: 4rem;
+   
+}
+.dropdown__ p{
+    padding: 1rem 0.5rem 1rem 0.5rem;
+    margin-top: .5rem;
+    background-color: #e7c9c4;
+  
+}
+.collapse-title{
+	padding-bottom: 0;
+	padding-top: 0;
+	display: flex;
+	align-items: center;
+}
+
+
+
+/* For Mobile screen */
+@media screen and (max-width:767px) {
+    .containerr {
+        width: unset;
+    }
+	.dropdown__{
+		width: 100%;
+		padding: unset;
+		padding-top: .5rem;
+	   
+	}
+   
+}
+
+/* For Tablet Screen */
+@media screen and (min-width:768px) and (max-width:1023px) {
+   
+    .containerr {
+        width: 750px;
+    }
+	.dropdown__{
+		width: 100%;
+		padding: 2.5rem;
+	   
+	}
+   
+}
+

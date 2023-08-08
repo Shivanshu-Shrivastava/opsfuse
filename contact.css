@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&family=Tenor+Sans&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Tenor Sans', sans-serif;
+    color: #75503f;
+
+
+
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1170px;
+}
+
+.contact__banner img {
+    width: 100%;
+}
+
+.button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    padding: 1rem 2.5rem;
+    cursor: pointer;
+    font-size: .7rem;
+    font-weight: 800;
+    transition: .5s;
+    background-color: #e7c9c4;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.button:hover {
+    outline: 1px solid black;
+}
+
+.contact__content {
+    padding: 3rem;
+    text-align: center;
+}
+
+.contact__content p {
+    padding: 1rem 0;
+    line-height: 2;
+}
+
+/* For Mobile screen */
+@media screen and (max-width:767px) {
+
+    .container {
+        width: unset;
+    }
+
+
+}
+
+/* For Tablet Screen */
+@media screen and (min-width:768px) and (max-width:1023px) {
+
+    .container {
+        width: 750px;
+    }
+
+}

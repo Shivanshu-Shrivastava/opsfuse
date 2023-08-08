@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&family=Tenor+Sans&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Tenor Sans', sans-serif;
+    color: #75503f;
+
+
+
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1170px;
+}
+
+img {
+    width: 100%;
+}
+
+
+.blog__ {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3rem;
+    margin: 10px;
+    padding: 17px;
+    margin: auto;
+  
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    cursor:pointer;
+    overflow: hidden;
+}
+
+.card img {
+    height: 400px;
+    transition: .7s;
+
+}
+
+.card h3 {
+    font-weight: 800;
+    padding: 1rem 0;
+    text-align: center;
+    font-size: 20px;
+}
+
+.card p {
+    text-align: center;
+}
+.card img:hover{
+    transform: scale(1.06);
+}
+
+
+
+
+/* For Mobile screen */
+@media screen and (max-width:420px) {
+    .container {
+        width: unset;
+    }
+    .blog__ {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .card img {
+        height: 250px;
+    }
+
+
+}
+@media screen and (min-width:420px) and (max-width:767px) {
+    .container {
+        width: unset;
+    }
+    .blog__ {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .card img {
+        height: 250px;
+    }
+
+
+}
+
+/* For Tablet Screen */
+@media screen and (min-width:768px) and (max-width:1023px) {
+
+    .container {
+        width: 750px;
+    }
+
+}

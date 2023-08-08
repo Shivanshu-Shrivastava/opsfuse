@@ -40,7 +40,7 @@
     margin-top: -7rem;
 }
 
-.about_us h3 {
+h3 {
     text-align: center;
     font-weight: 300;
     font-size: 35px;
@@ -102,6 +102,10 @@
 .pr-2{
     padding-right: 1.3rem;
 }
+
+
+
+
 /* For Mobile screen */
 @media screen and (max-width:767px) {
     .banner {
